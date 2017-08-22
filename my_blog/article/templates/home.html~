@@ -16,9 +16,6 @@
                     <p>
                         {{ post.content }}
                     </p>
-                    <a class="pure-button" href="/{{ post.id }}">
-                        Read More >>>
-                    </a>
                 </div>
         </section>
     {% endfor %}
