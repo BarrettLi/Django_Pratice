@@ -6,4 +6,5 @@ def index(request):
     return HttpResponse(u"Hello World!")
 
 def home(request):
-    return render(request, 'home.html')
+    TutorialList = ["HTML", "CSS", "jQuery", "Python", "Django"]
+    return render(request, 'home.html', {'TutorialList': TutorialList})

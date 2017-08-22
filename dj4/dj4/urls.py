@@ -23,4 +23,5 @@ urlpatterns = [
     #url(r'^$', learn_views.index),
     #url(r'^add/$', calc_views.add, name='add'),
     #url(r'^add/(\d+)/(\d+)/$', calc_views.add2, name='add2'),
+    url(r'^$', learn_views.home, name='home'),
 ]
